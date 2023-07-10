@@ -10,11 +10,7 @@ let package = Package(
     .library(
       name: "AdAdapters",
       targets: [
-        "GoogleAdapter",
-        "MetaAdapter",
-        "PangleAdapter",
-        "MintegralAdapter",
-        "IronSourceAdapter",
+        "AdAdapters",
       ]
     ),
   ],
@@ -25,6 +21,39 @@ let package = Package(
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
+    .target(
+      name: "AdAdapters",
+      dependencies: [
+        "GoogleAdapter",
+        "MetaAdapter",
+        "PangleAdapter",
+        "MintegralAdapter",
+        "IronSourceAdapter",
+      ],
+      linkerSettings: [
+        .linkedFramework("AdSupport"),
+        .linkedFramework("AppTrackingTransparency"),
+        .linkedFramework("AudioToolbox"),
+        .linkedFramework("AVFoundation"),
+        .linkedFramework("CoreGraphics"),
+        .linkedFramework("CoreMedia"),
+        .linkedFramework("CoreMotion"),
+        .linkedFramework("CoreTelephony"),
+        .linkedFramework("Foundation"),
+        .linkedFramework("MessageUI"),
+        .linkedFramework("SafariServices"),
+        .linkedFramework("StoreKit"),
+        .linkedFramework("SystemConfiguration"),
+        .linkedFramework("UIKit"),
+        .linkedFramework("WebKit"),
+
+        .linkedLibrary("z"),
+
+        // NOTE: Swift Package Manager currently does not allow dependencies with unsafeFlags, unless a specific branch/commit is used.
+        // For now, these flags should be added manually to the project for integration.
+         .unsafeFlags(["-ObjC"])
+      ]
+    ),
     .binaryTarget(
       name: "GoogleAdapter",
       path: "Sources/GoogleAdapter/AppLovinMediationGoogleAdapter.xcframework"
