@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
   name: "AdAdapters",
+  platforms: [
+    .iOS(.v15),
+  ],
   products: [
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(
@@ -31,24 +34,6 @@ let package = Package(
         "IronSourceAdapter",
       ],
       linkerSettings: [
-        .linkedFramework("AdSupport"),
-        .linkedFramework("AppTrackingTransparency"),
-        .linkedFramework("AudioToolbox"),
-        .linkedFramework("AVFoundation"),
-        .linkedFramework("CoreGraphics"),
-        .linkedFramework("CoreMedia"),
-        .linkedFramework("CoreMotion"),
-        .linkedFramework("CoreTelephony"),
-        .linkedFramework("Foundation"),
-        .linkedFramework("MessageUI"),
-        .linkedFramework("SafariServices"),
-        .linkedFramework("StoreKit"),
-        .linkedFramework("SystemConfiguration"),
-        .linkedFramework("UIKit"),
-        .linkedFramework("WebKit"),
-
-        .linkedLibrary("z"),
-
         // NOTE: Swift Package Manager currently does not allow dependencies with unsafeFlags, unless a specific branch/commit is used.
         // For now, these flags should be added manually to the project for integration.
          .unsafeFlags(["-ObjC"])
