@@ -20,6 +20,8 @@ let package = Package(
   dependencies: [
     // Dependencies declare other packages that this package depends on.
     // .package(url: /* package url */, from: "1.0.0"),
+    .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "10.0.0"),
+    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "5.2.1-release.3"),
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -27,11 +29,25 @@ let package = Package(
     .target(
       name: "AdAdapters",
       dependencies: [
+        .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+        .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
         "GoogleAdapter",
         "MetaAdapter",
         "PangleAdapter",
         "MintegralAdapter",
         "IronSourceAdapter",
+        "MetaSDK",
+        "MTGSDK",
+        "MTGSDKBanner",
+        "MTGSDKBidding",
+        "MTGSDKCNAddition",
+        "MTGSDKInterstitial",
+        "MTGSDKInterstitialVideo",
+        "MTGSDKNativeAdvanced",
+        "MTGSDKNewInterstitial",
+        "MTGSDKReward",
+        "MTGSDKSplash",
+        "IronSource",
       ],
       linkerSettings: [
         // NOTE: Swift Package Manager currently does not allow dependencies with unsafeFlags, unless a specific branch/commit is used.
@@ -58,6 +74,54 @@ let package = Package(
     .binaryTarget(
       name: "IronSourceAdapter",
       path: "Sources/IronSourceAdapter/AppLovinMediationIronSourceAdapter.xcframework"
+    ),
+    .binaryTarget(
+      name: "MetaSDK",
+      path: "Sources/MetaSDK/FBAudienceNetwork.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDK",
+      path: "Sources/MintegralAdapter/MTGSDK.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKBanner",
+      path: "Sources/MintegralAdapter/MTGSDKBanner.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKBidding",
+      path: "Sources/MintegralAdapter/MTGSDKBidding.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKCNAddition",
+      path: "Sources/MintegralAdapter/MTGSDKCNAddition.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKInterstitial",
+      path: "Sources/MintegralAdapter/MTGSDKInterstitial.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKInterstitialVideo",
+      path: "Sources/MintegralAdapter/MTGSDKInterstitialVideo.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKNativeAdvanced",
+      path: "Sources/MintegralAdapter/MTGSDKNativeAdvanced.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKNewInterstitial",
+      path: "Sources/MintegralAdapter/MTGSDKNewInterstitial.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKReward",
+      path: "Sources/MintegralAdapter/MTGSDKReward.xcframework"
+    ),
+    .binaryTarget(
+      name: "MTGSDKSplash",
+      path: "Sources/MintegralAdapter/MTGSDKSplash.xcframework"
+    ),
+    .binaryTarget(
+      name: "IronSource",
+      path: "Sources/IronSourceAdapter/IronSource.xcframework"
     ),
   ]
 )
