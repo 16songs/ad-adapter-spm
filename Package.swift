@@ -36,6 +36,8 @@ let package = Package(
         "PangleAdapter",
         "MintegralAdapter",
         "IronSourceAdapter",
+        "UnityAdapter",
+        "LiftoffAdapter",
         "MetaSDK",
         "MTGSDK",
         "MTGSDKBanner",
@@ -48,13 +50,11 @@ let package = Package(
         "MTGSDKReward",
         "MTGSDKSplash",
         "IronSource",
-      ],
-      linkerSettings: [
-        // NOTE: Swift Package Manager currently does not allow dependencies with unsafeFlags, unless a specific branch/commit is used.
-        // For now, these flags should be added manually to the project for integration.
-//         .unsafeFlags(["-ObjC"])
+        "Unity",
+        "Liftoff",
       ]
     ),
+    // Adapter
     .binaryTarget(
       name: "GoogleAdapter",
       path: "Sources/GoogleAdapter/AppLovinMediationGoogleAdapter.xcframework"
@@ -75,6 +75,15 @@ let package = Package(
       name: "IronSourceAdapter",
       path: "Sources/IronSourceAdapter/AppLovinMediationIronSourceAdapter.xcframework"
     ),
+    .binaryTarget(
+      name: "LiftoffAdapter",
+      path: "Sources/LiftoffAdapter/AppLovinMediationVungleAdapter.xcframework"
+    ),
+    .binaryTarget(
+      name: "UnityAdapter",
+      path: "Sources/UnityAdapter/AppLovinMediationUnityAdsAdapter.xcframework"
+    ),
+    // SDK
     .binaryTarget(
       name: "MetaSDK",
       path: "Sources/MetaSDK/FBAudienceNetwork.xcframework"
@@ -122,6 +131,14 @@ let package = Package(
     .binaryTarget(
       name: "IronSource",
       path: "Sources/IronSourceAdapter/IronSource.xcframework"
+    ),
+    .binaryTarget(
+      name: "Unity",
+      path: "Sources/UnityAdapter/UnityAds.xcframework"
+    ),
+    .binaryTarget(
+      name: "Liftoff",
+      path: "Sources/LiftoffAdapter/VungleAdsSDK.xcframework"
     ),
   ]
 )
