@@ -22,7 +22,6 @@ let package = Package(
     // .package(url: /* package url */, from: "1.0.0"),
     .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "10.0.0"),
     .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "5.2.1-release.3"),
-    .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager", exact: "7.0.1"),
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -32,7 +31,6 @@ let package = Package(
       dependencies: [
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
         .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
-        .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
         "GoogleAdapter",
         "MetaAdapter",
         "PangleAdapter",
@@ -53,6 +51,7 @@ let package = Package(
         "MTGSDKSplash",
         "IronSource",
         "Unity",
+        "Liftoff",
       ]
     ),
     // Adapter
@@ -136,6 +135,10 @@ let package = Package(
     .binaryTarget(
       name: "Unity",
       path: "Sources/UnityAdapter/UnityAds.xcframework"
+    ),
+    .binaryTarget(
+      name: "Liftoff",
+      path: "Sources/LiftoffAdapter/VungleSDK.xcframework"
     ),
   ]
 )
