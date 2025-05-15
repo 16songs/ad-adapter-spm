@@ -138,7 +138,7 @@ let package = Package(
     ),
     .binaryTarget(
       name: "Liftoff",
-      path: "Sources/LiftoffAdapter/VungleSDK.xcframework"
+      path: "Sources/LiftoffAdapter/VungleAdsSDK.xcframework"
     ),
   ]
 )
