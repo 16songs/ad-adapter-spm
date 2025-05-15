@@ -42,8 +42,8 @@ let package = Package(
         "MTGSDK",
         "MTGSDKBanner",
         "MTGSDKBidding",
-        "MTGSDKCNAddition",
-        "MTGSDKInterstitial",
+//        "MTGSDKCNAddition",
+//        "MTGSDKInterstitial",
         "MTGSDKInterstitialVideo",
         "MTGSDKNativeAdvanced",
         "MTGSDKNewInterstitial",
@@ -100,14 +100,14 @@ let package = Package(
       name: "MTGSDKBidding",
       path: "Sources/MintegralAdapter/MTGSDKBidding.xcframework"
     ),
-    .binaryTarget(
-      name: "MTGSDKCNAddition",
-      path: "Sources/MintegralAdapter/MTGSDKCNAddition.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKInterstitial",
-      path: "Sources/MintegralAdapter/MTGSDKInterstitial.xcframework"
-    ),
+//    .binaryTarget(
+//      name: "MTGSDKCNAddition",
+//      path: "Sources/MintegralAdapter/MTGSDKCNAddition.xcframework"
+//    ),
+//    .binaryTarget(
+//      name: "MTGSDKInterstitial",
+//      path: "Sources/MintegralAdapter/MTGSDKInterstitial.xcframework"
+//    ),
     .binaryTarget(
       name: "MTGSDKInterstitialVideo",
       path: "Sources/MintegralAdapter/MTGSDKInterstitialVideo.xcframework"
