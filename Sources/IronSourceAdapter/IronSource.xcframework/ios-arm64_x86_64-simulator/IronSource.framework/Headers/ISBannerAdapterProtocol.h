@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "ISAdUnitAdapterProtocol.h"
 #import "ISBannerAdapterDelegate.h"
 #import "ISBannerSize.h"
 #import "ISBiddingDataDelegate.h"
 
 @class ISAdapterConfig;
-@protocol ISBannerAdapterProtocol <NSObject>
+@protocol ISBannerAdapterProtocol <ISAdUnitAdapterProtocol>
 
 @optional
 
@@ -21,7 +22,7 @@
 
 - (void)destroyBannerWithAdapterConfig:(ISAdapterConfig *)adapterConfig;
 
-- (void)releaseMemoryWithAdapterConfig:(ISAdapterConfig *)adapterConfig;
+- (CGFloat)getAdaptiveHeightWithWidth:(CGFloat)width;
 
 #pragma mark - for non bidders
 
@@ -29,12 +30,11 @@
                adapterConfig:(ISAdapterConfig *)adapterConfig
                     delegate:(id<ISBannerAdapterDelegate>)delegate;
 
-
 - (void)loadBannerWithAdapterConfig:(ISAdapterConfig *)adapterConfig
                              adData:(NSDictionary *)adData
                      viewController:(UIViewController *)viewController
                                size:(ISBannerSize *)size
-                           delegate:(id <ISBannerAdapterDelegate>)delegate;
+                           delegate:(id<ISBannerAdapterDelegate>)delegate;
 
 #pragma mark - for bidders and demand only
 
@@ -55,6 +55,6 @@
                                    serverData:(NSString *)serverData
                                viewController:(UIViewController *)viewController
                                          size:(ISBannerSize *)size
-                                     delegate:(id <ISBannerAdapterDelegate>)delegate;
+                                     delegate:(id<ISBannerAdapterDelegate>)delegate;
 
 @end

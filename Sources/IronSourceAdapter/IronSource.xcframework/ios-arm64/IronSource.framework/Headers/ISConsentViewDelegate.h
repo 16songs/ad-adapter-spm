@@ -2,7 +2,6 @@
 //  ISConsentViewDelegate.h
 //  IronSource
 //
-//  Created by Hadar Pur on 08/10/2020.
 //  Copyright © 2020 ironSource. All rights reserved.
 //
 
@@ -15,11 +14,13 @@
 
 - (void)consentViewDidLoadSuccess:(NSString *)consentViewType;
 
-- (void)consentViewDidFailToLoadWithError:(NSError *)error consentViewType:(NSString *)consentViewType;
+- (void)consentViewDidFailToLoadWithError:(NSError *)error
+                          consentViewType:(NSString *)consentViewType;
 
 - (void)consentViewDidShowSuccess:(NSString *)consentViewType;
 
-- (void)consentViewDidFailToShowWithError:(NSError *)error consentViewType:(NSString *)consentViewType;
+- (void)consentViewDidFailToShowWithError:(NSError *)error
+                          consentViewType:(NSString *)consentViewType;
 
 - (void)consentViewDidAccept:(NSString *)consentViewType;
 

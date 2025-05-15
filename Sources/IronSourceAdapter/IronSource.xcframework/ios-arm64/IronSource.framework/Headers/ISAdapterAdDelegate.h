@@ -6,7 +6,6 @@
 //  Copyright © 2021 ironSource. All rights reserved.
 //
 
-
 #ifndef ISAdapterAdDelegate_h
 #define ISAdapterAdDelegate_h
 
@@ -16,16 +15,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ISAdapterAdDelegate <NSObject>
 
--(void)adDidLoad;
+// Mandatory callbacks
+
+- (void)adDidLoad;
 
 /// @param errorType the load error type, including NO_FILL
 /// @param errorCode the error code if available, general ones in AdapterErrors
 /// @param errorMessage the error message if available
--(void)adDidFailToLoadWithErrorType:(ISAdapterErrorType)errorType
-                          errorCode:(NSInteger)errorCode
-                       errorMessage:(nullable NSString*)errorMessage;
+- (void)adDidFailToLoadWithErrorType:(ISAdapterErrorType)errorType
+                           errorCode:(NSInteger)errorCode
+                        errorMessage:(nullable NSString*)errorMessage;
 
--(void)adDidClick;
+- (void)adDidOpen;
+
+/// @param errorCode the error code if available, general ones in AdapterErrors
+/// @param errorMessage the error message if available
+- (void)adDidFailToShowWithErrorCode:(NSInteger)errorCode
+                        errorMessage:(nullable NSString*)errorMessage;
+
+- (void)adDidClick;
 
 @end
 
