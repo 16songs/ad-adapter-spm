@@ -14,15 +14,15 @@
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Headers/MTGSDKNewInterstitial.h</key>
 		<data>
-		rbJVSQLzRcxH7WqInpxtL4NeAOY=
+		CiE5EKw3a3Ohle8UMylcGruv/Ec=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Info.plist</key>
 		<data>
-		XqKHbgmyeZy+LePdeA5y6bhkOeQ=
+		TqBu5Dm7wfyqBRj+nH4OckKy75Y=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/MTGSDKNewInterstitial</key>
 		<data>
-		cxLsowZySxfiaEktn6ISAfuQrl8=
+		HRWPgzP3X42kqPO0Bju+z+803JA=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Modules/module.modulemap</key>
 		<data>
@@ -30,23 +30,23 @@
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		+1rDicJ44vL/lw5sPeYmrgS/jCk=
+		7ISP7y8wXJh6G3NEfkdEv9SR2ts=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements</key>
 		<data>
-		0a0C9DszcuUfiFWxikVuoWDaXew=
+		GOqBoXVSY02TVPk9AXX39yOdx3I=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		QmvWzfX4ANjWh0ou/y8q+vbh9+A=
+		09gUkTk1sxqmvPB8QHp+k5O7BCk=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BSunQicCOuDskdarl5tDiO70LYk=
+		pq7xkhDbP5nTKdBobyAWtJKFl2U=
 		</data>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		a3JF2gXtlYcZehRtdWUrH+3uZUI=
+		oXQN0iGepGJS99gsSQx0SdqDtbo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Headers/MTGNewInterstitialAdManager.h</key>
 		<data>
@@ -58,15 +58,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Headers/MTGSDKNewInterstitial.h</key>
 		<data>
-		rbJVSQLzRcxH7WqInpxtL4NeAOY=
+		CiE5EKw3a3Ohle8UMylcGruv/Ec=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Info.plist</key>
 		<data>
-		DQ3jbVtKenvPG1x/A8Z80FbQFZs=
+		+kICsGIRvUUz47DDC3I9Zibe+VE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/MTGSDKNewInterstitial</key>
 		<data>
-		e4jbCwRZoOrCuxHMKsIAssBK8kQ=
+		6S0zQJBncv/4xLX9GaJjlt9dOfo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		fsQ0FTtvisI1cg6T558NGPmIVws=
+		c+x7A1Inn4kKGd025W4W/g1pEWM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		FdNOkFB4WSiZaORRhbGnijDgo1w=
+		euWfKpaiBXqPRO4TYeVKz51Bouk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sRzf+vJErqygp91wjvpZlwaZg9A=
+		qshlSTcpKoyc2gh65v1uudRbi6Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -97,10 +97,6 @@
 	<dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Headers/MTGNewInterstitialAdManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vag74PJqdYBiAmrqYKR7bce33FA=
-			</data>
 			<key>hash2</key>
 			<data>
 			nSpF7Zg+Fk858kmAykdcdArDNnx9wOUDN08QiKSQuX0=
@@ -108,10 +104,6 @@
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Headers/MTGNewInterstitialBidAdManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9CJN5jtbVFjn9mNa2toG7rhCYQ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			dojbDDtl1M0S1/tnwAX1hzUqV2UnD2vL/n6iMylWQkA=
@@ -119,43 +111,27 @@
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Headers/MTGSDKNewInterstitial.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rbJVSQLzRcxH7WqInpxtL4NeAOY=
-			</data>
 			<key>hash2</key>
 			<data>
-			RAJufdHzctHqv7Y+XtRvV86RQYO2HWSqpPv8nimFoKw=
+			udcvhyDnroNVIICbhfjzVJXRppYKdZchYg6vt5PfZ+8=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XqKHbgmyeZy+LePdeA5y6bhkOeQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			CJ6vrgsdAJ9f0HTBIvI4+dFzefFAAipPd10T8Z2Vt40=
+			2G+Ys1nVZZZcJpuQU+byhL10ox6gp+wg3TY9S2QuaWY=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/MTGSDKNewInterstitial</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cxLsowZySxfiaEktn6ISAfuQrl8=
-			</data>
 			<key>hash2</key>
 			<data>
-			gxPYbT5ajJ6rwxS/XyrQmEzfC8uUBf63vPqYlXSbKCE=
+			5Xekhvf/ALtyrcVON0WrjCMogA0kYR1cuhvQLxRQ+lw=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MJFWYBaxDG475AV5/ySLjwOm3dw=
-			</data>
 			<key>hash2</key>
 			<data>
 			OluFwjJzoKko83y6IlRPtIAt3c2hgqcy8DR/t85PDtE=
@@ -163,65 +139,41 @@
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+1rDicJ44vL/lw5sPeYmrgS/jCk=
-			</data>
 			<key>hash2</key>
 			<data>
-			8lekYegtlX8MbtHe2l3E7hT+jGO2M45d5hCWu+ho2GE=
+			xrMHLDsBEY+bNSgh2sO0oMMAYSHEc37VNaH1E7QNsyo=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0a0C9DszcuUfiFWxikVuoWDaXew=
-			</data>
 			<key>hash2</key>
 			<data>
-			32Duu9T2+7GxcJG/aKAxWkhNmdtutMPxGUvTshTvVxw=
+			BEeMIisN5X4FXx84fkjaraxCurIileYTICXZX3MzRVc=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QmvWzfX4ANjWh0ou/y8q+vbh9+A=
-			</data>
 			<key>hash2</key>
 			<data>
-			3i1/SeJ8nEMtcDE/D8McU+BIVF6GANNvjEniEHy+Yp0=
+			vXzkcK8X57PPvtZUtqJm7RQIwG+xt5iz8ECiXPakieg=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BSunQicCOuDskdarl5tDiO70LYk=
-			</data>
 			<key>hash2</key>
 			<data>
-			kfFLqfB/fRGK4pr+7LpMfsMrH/HhM+Eh6K3y9efialA=
+			kliBNfvjK/zHowseMF/RuoR0rXFHGKt9gQAxBHIhFbw=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKNewInterstitial.framework/_CodeSignature/CodeSignature</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a3JF2gXtlYcZehRtdWUrH+3uZUI=
-			</data>
 			<key>hash2</key>
 			<data>
-			3bPLZ1OJPqqhp+5aOYF/dGo/TFQjTE9lXaubaSo/Wc0=
+			yuMlYmSP1OGv9PydJWZWZ5a3OSE+VicZ0goh9vUjYa8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Headers/MTGNewInterstitialAdManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vag74PJqdYBiAmrqYKR7bce33FA=
-			</data>
 			<key>hash2</key>
 			<data>
 			nSpF7Zg+Fk858kmAykdcdArDNnx9wOUDN08QiKSQuX0=
@@ -229,10 +181,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Headers/MTGNewInterstitialBidAdManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9CJN5jtbVFjn9mNa2toG7rhCYQ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			dojbDDtl1M0S1/tnwAX1hzUqV2UnD2vL/n6iMylWQkA=
@@ -240,43 +188,27 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Headers/MTGSDKNewInterstitial.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rbJVSQLzRcxH7WqInpxtL4NeAOY=
-			</data>
 			<key>hash2</key>
 			<data>
-			RAJufdHzctHqv7Y+XtRvV86RQYO2HWSqpPv8nimFoKw=
+			udcvhyDnroNVIICbhfjzVJXRppYKdZchYg6vt5PfZ+8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DQ3jbVtKenvPG1x/A8Z80FbQFZs=
-			</data>
 			<key>hash2</key>
 			<data>
-			pByR24W+8YFWrgDwQg5Wf/2YkRLmdWjj1RsuBrPSMxM=
+			CyzMNKN3XlL+Efqm/amWNIu7VTzJQmnwgm3anscFZSE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/MTGSDKNewInterstitial</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			e4jbCwRZoOrCuxHMKsIAssBK8kQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			s+SBkLxxrH8TbDzN7VkMbXlqx09yF7Ze24VDb+A1yyY=
+			9aqtn9NlSLTFo8NWmLX49KH+rCwL10Czevvh7edeCmU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MJFWYBaxDG475AV5/ySLjwOm3dw=
-			</data>
 			<key>hash2</key>
 			<data>
 			OluFwjJzoKko83y6IlRPtIAt3c2hgqcy8DR/t85PDtE=
@@ -284,21 +216,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fsQ0FTtvisI1cg6T558NGPmIVws=
-			</data>
 			<key>hash2</key>
 			<data>
-			XtFz5qEstTH0rYPMU39saj51AWs/SSvikuEMPVHD/Vw=
+			UBYUFfHgFyLIzUC/CtEwpZE47ZHWiDNMYXFswvH4BTU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
@@ -306,32 +230,20 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FdNOkFB4WSiZaORRhbGnijDgo1w=
-			</data>
 			<key>hash2</key>
 			<data>
-			zhOctKnEQTElHBLxgu3suVnnLWu7eVHaitXkYjvbJWU=
+			S0+T8DSf92sMl7jLQVb0Y0dBgw7quqrCCPVtDT7Mi+4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sRzf+vJErqygp91wjvpZlwaZg9A=
-			</data>
 			<key>hash2</key>
 			<data>
-			zaBLYEoufk3JzHK7gaP89X6PD3K6RH1gjj6bMIEpME4=
+			fhxiPXqvBX+j1GJnIY4ojxqX1sS91MZgCUQI5PDsd4U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKNewInterstitial.framework/_CodeSignature/CodeSignature</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=

@@ -21,7 +21,7 @@ let package = Package(
     // Dependencies declare other packages that this package depends on.
     // .package(url: /* package url */, from: "1.0.0"),
     .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "13.2.0"),
-    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "6.2.0-release.9"),
+    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "7.9.1-release.1"),
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -32,13 +32,12 @@ let package = Package(
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
         .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
         "GoogleAdapter",
-        "MetaAdapter",
+        "MolocoAdapter",
         "PangleAdapter",
         "MintegralAdapter",
-        "IronSourceAdapter",
         "UnityAdapter",
         "LiftoffAdapter",
-        "MetaSDK",
+        "Moloco",
         "MTGSDK",
         "MTGSDKBanner",
         "MTGSDKBidding",
@@ -49,7 +48,6 @@ let package = Package(
         "MTGSDKNewInterstitial",
         "MTGSDKReward",
         "MTGSDKSplash",
-        "IronSource",
         "Unity",
         "Liftoff",
       ]
@@ -60,20 +58,12 @@ let package = Package(
       path: "Sources/GoogleAdapter/AppLovinMediationGoogleAdapter.xcframework"
     ),
     .binaryTarget(
-      name: "MetaAdapter",
-      path: "Sources/MetaAdapter/AppLovinMediationFacebookAdapter.xcframework"
-    ),
-    .binaryTarget(
       name: "PangleAdapter",
       path: "Sources/PangleAdapter/AppLovinMediationByteDanceAdapter.xcframework"
     ),
     .binaryTarget(
       name: "MintegralAdapter",
       path: "Sources/MintegralAdapter/AppLovinMediationMintegralAdapter.xcframework"
-    ),
-    .binaryTarget(
-      name: "IronSourceAdapter",
-      path: "Sources/IronSourceAdapter/AppLovinMediationIronSourceAdapter.xcframework"
     ),
     .binaryTarget(
       name: "LiftoffAdapter",
@@ -83,11 +73,11 @@ let package = Package(
       name: "UnityAdapter",
       path: "Sources/UnityAdapter/AppLovinMediationUnityAdsAdapter.xcframework"
     ),
-    // SDK
     .binaryTarget(
-      name: "MetaSDK",
-      path: "Sources/MetaSDK/FBAudienceNetwork.xcframework"
+      name: "MolocoAdapter",
+      path: "Sources/MolocoAdapter/AppLovinMediationMolocoAdapter.xcframework"
     ),
+    // SDK
     .binaryTarget(
       name: "MTGSDK",
       path: "Sources/MintegralAdapter/MTGSDK.xcframework"
@@ -129,12 +119,12 @@ let package = Package(
       path: "Sources/MintegralAdapter/MTGSDKSplash.xcframework"
     ),
     .binaryTarget(
-      name: "IronSource",
-      path: "Sources/IronSourceAdapter/IronSource.xcframework"
-    ),
-    .binaryTarget(
       name: "Unity",
       path: "Sources/UnityAdapter/UnityAds.xcframework"
+    ),
+    .binaryTarget(
+      name: "Moloco",
+      path: "Sources/MolocoAdapter/MolocoSDK.xcframework"
     ),
     .binaryTarget(
       name: "Liftoff",

@@ -6,15 +6,15 @@
 	<dict>
 		<key>ios-arm64/MTGSDKSplash.framework/Headers/MTGSplashAD.h</key>
 		<data>
-		IL62M01MXAM8EYktUM2CLdzCtBg=
+		/3GKjjtXXKPRNLpkWb9KFZjHMm4=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/Info.plist</key>
 		<data>
-		vzcawErErG0zLsESOc+txrCFkk4=
+		IptfnLgW5LUpDfyGPki87ahQ+vQ=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/MTGSDKSplash</key>
 		<data>
-		nR9C3pZDX4xGHwDG1rXtvKQULKo=
+		uAIwcF9lGRQK/hNqu4IPxg9LVRQ=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/Modules/module.modulemap</key>
 		<data>
@@ -22,35 +22,35 @@
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		idDaAHrRkBXAq3k9EZ+ALn2U2HY=
+		yJQENKIm7twqSCbiOME+fraQRSc=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeRequirements</key>
 		<data>
-		IqkNc0uKfSWdVdmsEpmrwBgKZ+0=
+		QcTHVNuGymfmWw6x/jfoBP2LvD8=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		pIGevzTuTuZnulBIk8R1q7IJD9w=
+		jvSTR3JTmiGw9/W4V/5hLF+E9bM=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZgzJKqJ1p2s2qwr14IDzlUGcgYQ=
+		85mbEHDZuZCBGZfQtLckAMMlYYM=
 		</data>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		Goh0w9MddmYhS0tY/xIrXyyiESg=
+		YEYfa43x+DlIkq9BceJ0ApTsenw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/Headers/MTGSplashAD.h</key>
 		<data>
-		IL62M01MXAM8EYktUM2CLdzCtBg=
+		/3GKjjtXXKPRNLpkWb9KFZjHMm4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/Info.plist</key>
 		<data>
-		8Audo7/XynxmZtHFgH4X3gPLcTk=
+		eutlwKWKFHlHyPzB7H4i7mkIYeo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/MTGSDKSplash</key>
 		<data>
-		nTpnt4GYVjKfPubOIzFkZg98U54=
+		nlCqy8XvAp90ANjYtb6pPQaV9RI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		zOVt5kDXnYHebSyBErdfbBBNSbU=
+		fnfpVT/xmjQmU+bdSiSndxkh6/s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		myWjAdbvXdZxZcImDDGaeP/FPCI=
+		1hc6YipVAvI4JIf0cb70bnVtJPM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeResources</key>
 		<data>
-		2XZrpbREwFd0Q8XwjbEiGIjYOxg=
+		9/0oNWjd8RmlnjWWg+NQVbrskME=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -81,43 +81,27 @@
 	<dict>
 		<key>ios-arm64/MTGSDKSplash.framework/Headers/MTGSplashAD.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IL62M01MXAM8EYktUM2CLdzCtBg=
-			</data>
 			<key>hash2</key>
 			<data>
-			xiNFb4grkD41xUxTD80HN4qHP+FYadMq9CHcEU/fpu8=
+			5zV+9Fj1I2SYOfdfG5ajNjr94IEhhBTGqhSoRxop0kI=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vzcawErErG0zLsESOc+txrCFkk4=
-			</data>
 			<key>hash2</key>
 			<data>
-			KT0kQXay9uZdIHsx38SCNYUBVdrR8KuUKqTc2eNzH20=
+			OJ7yC9CJoLy0Nqn2wZLn7fvk/z0GeMj4l9h2EJxkvag=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/MTGSDKSplash</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nR9C3pZDX4xGHwDG1rXtvKQULKo=
-			</data>
 			<key>hash2</key>
 			<data>
-			2RnySt24xHOqXwK1wFvh0S6Yd0Dc50iEI/aT/s8mvjA=
+			B6T+zhM/wPM3p7flwtuRcgt8678iYpkaa8kDVEH98OM=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vCFIkTnS7KH1fTVp2h8OnImPMoo=
-			</data>
 			<key>hash2</key>
 			<data>
 			aGlEC/bkPAr3ZiEKN0CpmstSsxtp6WITS7r7N20r+G0=
@@ -125,98 +109,62 @@
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			idDaAHrRkBXAq3k9EZ+ALn2U2HY=
-			</data>
 			<key>hash2</key>
 			<data>
-			Gzi/T+6VgIiavptO4k4s9W/Wc6OjbyxXt4Shwuewo9I=
+			e/Dsvdg9pUbsErwp5H+YcZKF8ucEeDbRwFy0NjwKshM=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IqkNc0uKfSWdVdmsEpmrwBgKZ+0=
-			</data>
 			<key>hash2</key>
 			<data>
-			OedjUrMT0wpK5Pi4osgRm7/NdzarU/RYsaR09suKxM4=
+			6NznRfrZb9r8GNfNZhLmvkIOSa+uCA8u6Z6TcJe2lGE=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pIGevzTuTuZnulBIk8R1q7IJD9w=
-			</data>
 			<key>hash2</key>
 			<data>
-			5Khr59/x3iHyIuia5wobK3xbKyaDeWWp+pvxN7psYTo=
+			In25fTFPp9N7mY281Jkfq6p/jvUG4oz+JR/DCwHq2LU=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZgzJKqJ1p2s2qwr14IDzlUGcgYQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			D1Uywqs+F1wCU2SAJ/ed5e3D0BaaZIZOPKzmLz63+ms=
+			do4Bpm6y+m/Z03fSrc183vvDxdtlrNDi6ijhlLUDIis=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKSplash.framework/_CodeSignature/CodeSignature</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Goh0w9MddmYhS0tY/xIrXyyiESg=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ct4R27oVrr4Lj6pYz4eG6774E4nBej5Hn+BkfOCG2Xc=
+			AW7v4lZtQc4EFWaH7tQ5RgQA/lOSGI2Tei5q59qn7Ok=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/Headers/MTGSplashAD.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IL62M01MXAM8EYktUM2CLdzCtBg=
-			</data>
 			<key>hash2</key>
 			<data>
-			xiNFb4grkD41xUxTD80HN4qHP+FYadMq9CHcEU/fpu8=
+			5zV+9Fj1I2SYOfdfG5ajNjr94IEhhBTGqhSoRxop0kI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8Audo7/XynxmZtHFgH4X3gPLcTk=
-			</data>
 			<key>hash2</key>
 			<data>
-			gGRd6NftV91Rc+dxUIFRPn35AKYlQVpWtXeFezr0pTk=
+			/Lt6ZqoCDK3A1BJ1zi51Hh5fm2lVjwthLogoLfgBGUQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/MTGSDKSplash</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nTpnt4GYVjKfPubOIzFkZg98U54=
-			</data>
 			<key>hash2</key>
 			<data>
-			ybLGXa6qzyz22qAEMCRJouRhBg+zP6/eEFODyfsBLmw=
+			hfEU9fadoXYoHCDkEgFV2NDPQ2lBlw+MFZnE4GEROZg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vCFIkTnS7KH1fTVp2h8OnImPMoo=
-			</data>
 			<key>hash2</key>
 			<data>
 			aGlEC/bkPAr3ZiEKN0CpmstSsxtp6WITS7r7N20r+G0=
@@ -224,21 +172,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zOVt5kDXnYHebSyBErdfbBBNSbU=
-			</data>
 			<key>hash2</key>
 			<data>
-			B5MtDSB8Y646vgJkEcBC05q2F/Jde9t0Fi5t0p7yUSc=
+			1oMSx67vcGSwlmzyHjONMLy8NdF3nFpPqBFlpaWiQxI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
@@ -246,32 +186,20 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			myWjAdbvXdZxZcImDDGaeP/FPCI=
-			</data>
 			<key>hash2</key>
 			<data>
-			tWek0jhOSzZG7F1G5MP9cE+g6YciGw9OGqUYdIdguJg=
+			WXKCEu2rPEyfhUk3owAyVA9cd6kzPpFFHQ1jy1B1Fsg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2XZrpbREwFd0Q8XwjbEiGIjYOxg=
-			</data>
 			<key>hash2</key>
 			<data>
-			WfQ1R3yRhzZS28ehVTlHnkj3a93v2gQZ/6f8enrbock=
+			UUWyut8YsQp5X3qr+Tk0tUu7dPm8V+zNJ2l307UaaPo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKSplash.framework/_CodeSignature/CodeSignature</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=

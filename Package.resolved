@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bytedance/AdsGlobalPackage",
       "state" : {
-        "revision" : "a131819e403327f7d3165f158561b6ed77611cb1",
-        "version" : "6.2.0-release.9"
+        "revision" : "0d62519f394ab6322dc56aa93609188e8887d076",
+        "version" : "7.9.1-release.1"
       }
     },
     {
