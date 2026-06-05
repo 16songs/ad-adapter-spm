@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAd.h</key>
 		<data>
-		ENmWTruPTm7yt0NPsL6ke8PvHmM=
+		utesLJlAFaEPhNt6dUJmDmrpsB0=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAdManager.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Info.plist</key>
 		<data>
-		Lj0MbAiogK35ovMFfSWK2r2pSrQ=
+		B6Y34L/aRjJ2JYLG/6CnwQN8MU0=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/MTGSDKInterstitialVideo</key>
 		<data>
-		oec4LRH2I9bIKZZtGZTPPrj0B4U=
+		2tB4Dr9nsKiVpWlUpoUPo1F8GFg=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Modules/module.modulemap</key>
 		<data>
@@ -30,23 +30,23 @@
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		8fAjEr+K6dU7fcvB1Jtj6UNPpsw=
+		+3/pMHNk6WpRc1yIGEu1UXBMIpo=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements</key>
 		<data>
-		3lImyNED8cn54kQTVTa00ke2q5Q=
+		CnPjmZa++wJ7VNWVAgYKImmnpt4=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		pilHyaftZI0xeKWgCzrIevp2qjw=
+		/+prLR605cpKtgrMP1ArhySGHTs=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeResources</key>
 		<data>
-		W8XKRYy/qEwpwRKFVXD+hp742k0=
+		7HOztRDcZtSlz6cnLhtK8MEF7lE=
 		</data>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		+uO5qlzGFjMe0z9RLY5oO+qoQTk=
+		l1pUhaO2Yj2mVLP9TRL0TlYV8E0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Headers/MTGBidInterstitialVideoAdManager.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAd.h</key>
 		<data>
-		ENmWTruPTm7yt0NPsL6ke8PvHmM=
+		utesLJlAFaEPhNt6dUJmDmrpsB0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAdManager.h</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Info.plist</key>
 		<data>
-		QTZQLq879NHfnEWQO1IsIafeYVU=
+		r1MC2F15IqhvXNI8PyqWeMUIY9M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/MTGSDKInterstitialVideo</key>
 		<data>
-		jpFZP6D354W9L6F0UUAxUQy0dpk=
+		AEiDeVgw4oiRUR65rTpZmw4h6sk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		f32Kmf0rwMo6cC4HEtupyse7EaA=
+		PwWIvTzn3anmuKjJ7FV14Zw/NCw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		C7oQ408GuYoIN0035boc8DBX6+8=
+		gl7sjrdTPG+MfFImyE8ExDpS7MM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeResources</key>
 		<data>
-		WjgM0OcV/Zjx16xZ1DglWMjDdic=
+		9lammei0EsoY2/wwmQd8QE7f2Rk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -97,6 +97,10 @@
 	<dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Headers/MTGBidInterstitialVideoAdManager.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6CxucYsaBDZqCwR2lWCEfdKh1gA=
+			</data>
 			<key>hash2</key>
 			<data>
 			+EZGJCQ3+56AZJTiqPjXBIlMA607PNO9E/leh1K5Gik=
@@ -104,13 +108,21 @@
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAd.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			utesLJlAFaEPhNt6dUJmDmrpsB0=
+			</data>
 			<key>hash2</key>
 			<data>
-			3pTZWzqnY6IXLmW+aGc82kGyXNx23AhiluqOweedQHE=
+			l4p162sM4kNVzoiiHgFW5t+1gsOkb2CXk7aXZMS+aQs=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAdManager.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7cHJnKiMUJUOo+4bU/BpNp0eOyM=
+			</data>
 			<key>hash2</key>
 			<data>
 			CBN2o6HGyvHM3zBjnVa2b/+JAl0sxn3eciWzZ4xj3Xs=
@@ -118,20 +130,32 @@
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			B6Y34L/aRjJ2JYLG/6CnwQN8MU0=
+			</data>
 			<key>hash2</key>
 			<data>
-			39k2pNYTO4sLPqRMqi/U6ns3QGuTtPyMzNr99kYI1Yo=
+			PjMtVnONGfeP5Mt0OW4X8qF9gbjl7VRYoLE+e/yIN+U=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/MTGSDKInterstitialVideo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2tB4Dr9nsKiVpWlUpoUPo1F8GFg=
+			</data>
 			<key>hash2</key>
 			<data>
-			hEu3yCI+OjNeygoZPtD8apagY0rM1K4wCM6ztbPGPR8=
+			6NgZsUuI9NSQRvcouTaaJFUTmr/CFJfWnoHiP2E2+YA=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QO/HDI41v3sR/gWnlJsXarBQhuY=
+			</data>
 			<key>hash2</key>
 			<data>
 			eXgOhpt4aiNPOdRYA5U8cGChyR4QCgxtP0U3lJvY+ZE=
@@ -139,41 +163,65 @@
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+3/pMHNk6WpRc1yIGEu1UXBMIpo=
+			</data>
 			<key>hash2</key>
 			<data>
-			GsfMQH2H57AgsM5B46RkfLs32uRh7CtJnJLiQqdDy84=
+			mkxuSeOFBN+HVa0mwDpGfkGXAPeXct6UKZGY+YvmvG4=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CnPjmZa++wJ7VNWVAgYKImmnpt4=
+			</data>
 			<key>hash2</key>
 			<data>
-			gmL8I35LuncLW0KO74krJr5fq57ov/iLAo1A7sIY+Bk=
+			cYvlmK2Z6/JfKQIPE3gioKK3W3VRthQDKBkNw6xYBbE=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/+prLR605cpKtgrMP1ArhySGHTs=
+			</data>
 			<key>hash2</key>
 			<data>
-			FH1FIBGTNXEaasM5bJYw9HWYzDTLHgTfaQf+S2izE4A=
+			Eabqqf2oVDNnqu2EF2lYn07WTzvT/4Du5G45bSEos48=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7HOztRDcZtSlz6cnLhtK8MEF7lE=
+			</data>
 			<key>hash2</key>
 			<data>
-			2Efh7g5vQ8A0Pw//ui0sC/nQ4I2NcAXMAXBFBv/CzyQ=
+			PkcLESlB2KgkX8YptLjlQxySudqaLlRH4PONeOg59f8=
 			</data>
 		</dict>
 		<key>ios-arm64/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeSignature</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			l1pUhaO2Yj2mVLP9TRL0TlYV8E0=
+			</data>
 			<key>hash2</key>
 			<data>
-			JgV6mtKwnMEnq3cC5zx24KYi1N2/RnOytLjH664RKg8=
+			xjZ4wGAzz6xszu7+v8MwSUz94MB+oI+biQbP9AyhqCo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Headers/MTGBidInterstitialVideoAdManager.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6CxucYsaBDZqCwR2lWCEfdKh1gA=
+			</data>
 			<key>hash2</key>
 			<data>
 			+EZGJCQ3+56AZJTiqPjXBIlMA607PNO9E/leh1K5Gik=
@@ -181,13 +229,21 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAd.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			utesLJlAFaEPhNt6dUJmDmrpsB0=
+			</data>
 			<key>hash2</key>
 			<data>
-			3pTZWzqnY6IXLmW+aGc82kGyXNx23AhiluqOweedQHE=
+			l4p162sM4kNVzoiiHgFW5t+1gsOkb2CXk7aXZMS+aQs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Headers/MTGInterstitialVideoAdManager.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7cHJnKiMUJUOo+4bU/BpNp0eOyM=
+			</data>
 			<key>hash2</key>
 			<data>
 			CBN2o6HGyvHM3zBjnVa2b/+JAl0sxn3eciWzZ4xj3Xs=
@@ -195,20 +251,32 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			r1MC2F15IqhvXNI8PyqWeMUIY9M=
+			</data>
 			<key>hash2</key>
 			<data>
-			Qb3Qq9x/+qabVK1JEwbU7wMuTvUWW8xQHBskIFnoxNI=
+			ic2gPdchPwMmkFdkJI+qfMI+0TRFGTTmEY7VJTTma/0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/MTGSDKInterstitialVideo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AEiDeVgw4oiRUR65rTpZmw4h6sk=
+			</data>
 			<key>hash2</key>
 			<data>
-			ZWcpsxM4ktMyGWfNU1KVXjn6aYvBl3HWKtLOnxVLxmQ=
+			ADZYiBVkGE6RRofFi+4ggcYz66JH96y2KU6zz6w3lyw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QO/HDI41v3sR/gWnlJsXarBQhuY=
+			</data>
 			<key>hash2</key>
 			<data>
 			eXgOhpt4aiNPOdRYA5U8cGChyR4QCgxtP0U3lJvY+ZE=
@@ -216,13 +284,21 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PwWIvTzn3anmuKjJ7FV14Zw/NCw=
+			</data>
 			<key>hash2</key>
 			<data>
-			C1DbpXzRawa1RVtcXDXQAvPkyUAt6//YvbfKG7i0JQo=
+			fYNFO82QUwjHbQ1J47S4dGeZxJqP8otaN+egrhFHdzM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			OnX22wWFKRSOFN1+obRynMCeyXM=
+			</data>
 			<key>hash2</key>
 			<data>
 			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
@@ -230,20 +306,32 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gl7sjrdTPG+MfFImyE8ExDpS7MM=
+			</data>
 			<key>hash2</key>
 			<data>
-			lpwOGuvI/9WykEKKAUOk45iThCnQxpLzSW67ddXC6ws=
+			AA0AEJ+04qehEhkOf8f3QkcIOMznT9DJWbQbTZpo8Bc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9lammei0EsoY2/wwmQd8QE7f2Rk=
+			</data>
 			<key>hash2</key>
 			<data>
-			jiNX9flRvWjuThtdy/DCCmR3M3aFavUeE6t5PbmKi5M=
+			LTPsFI4gJJFgLZagAQz9n+kLQgMoHsTALlXdbjLyyLE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MTGSDKInterstitialVideo.framework/_CodeSignature/CodeSignature</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
