@@ -34,20 +34,9 @@ let package = Package(
         "GoogleAdapter",
         "MolocoAdapter",
         "PangleAdapter",
-        "MintegralAdapter",
         "UnityAdapter",
         "LiftoffAdapter",
         "Moloco",
-        "MTGSDK",
-        "MTGSDKBanner",
-        "MTGSDKBidding",
-//        "MTGSDKCNAddition",
-//        "MTGSDKInterstitial",
-        "MTGSDKInterstitialVideo",
-        "MTGSDKNativeAdvanced",
-        "MTGSDKNewInterstitial",
-        "MTGSDKReward",
-        "MTGSDKSplash",
         "Unity",
         "Liftoff",
       ]
@@ -62,10 +51,6 @@ let package = Package(
       path: "Sources/PangleAdapter/AppLovinMediationByteDanceAdapter.xcframework"
     ),
     .binaryTarget(
-      name: "MintegralAdapter",
-      path: "Sources/MintegralAdapter/AppLovinMediationMintegralAdapter.xcframework"
-    ),
-    .binaryTarget(
       name: "LiftoffAdapter",
       path: "Sources/LiftoffAdapter/AppLovinMediationVungleAdapter.xcframework"
     ),
@@ -76,47 +61,6 @@ let package = Package(
     .binaryTarget(
       name: "MolocoAdapter",
       path: "Sources/MolocoAdapter/AppLovinMediationMolocoAdapter.xcframework"
-    ),
-    // SDK
-    .binaryTarget(
-      name: "MTGSDK",
-      path: "Sources/MintegralAdapter/MTGSDK.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKBanner",
-      path: "Sources/MintegralAdapter/MTGSDKBanner.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKBidding",
-      path: "Sources/MintegralAdapter/MTGSDKBidding.xcframework"
-    ),
-//    .binaryTarget(
-//      name: "MTGSDKCNAddition",
-//      path: "Sources/MintegralAdapter/MTGSDKCNAddition.xcframework"
-//    ),
-//    .binaryTarget(
-//      name: "MTGSDKInterstitial",
-//      path: "Sources/MintegralAdapter/MTGSDKInterstitial.xcframework"
-//    ),
-    .binaryTarget(
-      name: "MTGSDKInterstitialVideo",
-      path: "Sources/MintegralAdapter/MTGSDKInterstitialVideo.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKNativeAdvanced",
-      path: "Sources/MintegralAdapter/MTGSDKNativeAdvanced.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKNewInterstitial",
-      path: "Sources/MintegralAdapter/MTGSDKNewInterstitial.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKReward",
-      path: "Sources/MintegralAdapter/MTGSDKReward.xcframework"
-    ),
-    .binaryTarget(
-      name: "MTGSDKSplash",
-      path: "Sources/MintegralAdapter/MTGSDKSplash.xcframework"
     ),
     .binaryTarget(
       name: "Unity",
