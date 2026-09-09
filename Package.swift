@@ -37,10 +37,12 @@ let package = Package(
         "UnityAdapter",
         "LiftoffAdapter",
         "InMobiAdapter",
+        "FyberAdapter",
         "Moloco",
         "Unity",
         "Liftoff",
-        "InMobiSDK"
+        "InMobiSDK",
+        "IASDKCore"
       ]
     ),
     // Adapter
@@ -69,6 +71,10 @@ let package = Package(
       path: "Sources/InMobiAdapter/AppLovinMediationInMobiAdapter.xcframework"
     ),
     .binaryTarget(
+      name: "FyberAdapter",
+      path: "Sources/FyberAdapter/AppLovinMediationFyberAdapter.xcframework"
+    ),
+    .binaryTarget(
       name: "Unity",
       path: "Sources/UnityAdapter/UnityAds.xcframework"
     ),
@@ -83,6 +89,10 @@ let package = Package(
     .binaryTarget(
       name: "InMobiSDK",
       path: "Sources/InMobiAdapter/InMobiSDK.xcframework"
+    ),
+    .binaryTarget(
+      name: "IASDKCore",
+      path: "Sources/FyberAdapter/IASDKCore.xcframework"
     ),
   ]
 )
