@@ -50,28 +50,24 @@ FOUNDATION_EXPORT const unsigned char IASDKCoreVersionString[];
 #import <IASDKCore/IACoppaApplies.h>
 #import <IASDKCore/FMPBiddingManager.h>
 
-#import <IASDKCore/IASDKMRAID.h>
-
 #import <IASDKCore/IAMRAIDContentController.h>
 #import <IASDKCore/IAMRAIDContentDelegate.h>
 #import <IASDKCore/IAMRAIDContentModel.h>
 
-#import <IASDKCore/IASDKVideo.h>
-
 #import <IASDKCore/IAVideoContentController.h>
 #import <IASDKCore/IAVideoContentDelegate.h>
-#import <IASDKCore/IAVideoLayout.h>
 #import <IASDKCore/IAVideoContentModel.h>
-#import <IASDKCore/IAVideoView.h>
+
+#import <IASDKCore/DTXNativeImageContentController.h>
 
 typedef void (^IASDKCoreInitBlock)(BOOL success, NSError * _Nullable error);
 
 typedef NS_ENUM(NSInteger, IASDKCoreInitErrorType) {
     IASDKCoreInitErrorTypeUnknown = 0,
     IASDKCoreInitErrorTypeFailedToDownloadMandatoryData = 1,
-    IASDKCoreInitErrorTypeMissingModules = 2,
+    IASDKCoreInitErrorTypeMissingModules __attribute__((deprecated)) = 2,
     IASDKCoreInitErrorTypeInvalidAppID = 3,
-    IASDKCoreInitErrorTypeCancelled = 4
+    IASDKCoreInitErrorTypeCancelled __attribute__((deprecated)) = 4 // no longer surfaced; redundant init calls are ignored silently (event 62 not sent);
 };
 
 @interface IASDKCore : NSObject <IAInterfaceSingleton>
@@ -157,23 +153,16 @@ typedef NS_ENUM(NSInteger, IASDKCoreInitErrorType) {
  */
 @property (atomic) IALGPDConsentType LGPDConsent;
 
-
 /**
  *  @brief The COPPA complience status.
  *
- *  @discussion Use this property in order to set the COPPA complience accoring to your preferences.
+ *  @discussion Use this property in order to set the COPPA complience status.
  *
- * It can be used as one of the following, in order to allow/restrict:
+ * It can be used as one of the following:
  *
- * - `[IASDKCore.sharedInstance setCoppaApplies:YES]`
+ * - `IASDKCore.sharedInstance.coppaApplies = IACoppaAppliesTypeTrue`
  *
- * - `[IASDKCore.sharedInstance setCoppaApplies:true]`
- *
- * - `IASDKCore.sharedInstance.coppaApplies = NO`
- *
- * - `IASDKCore.sharedInstance.coppaApplies = 1`
- *
- * - `IASDKCore.sharedInstance.setCoppaApplies = IACoppaAppliesTypeGiven`
+ * - `IASDKCore.sharedInstance.coppaApplies = IACoppaAppliesTypeFalse`
  *
  * Or it can be cleared by using the following:
  *
@@ -199,10 +188,9 @@ typedef NS_ENUM(NSInteger, IASDKCoreInitErrorType) {
 @property (nonatomic, nullable) IAUserData *userData;
 
 /**
- *  @brief Single keyword string or several keywords, separated by comma.
- *  @discussion These keywords will be used in bidding flow, while bidding token creation.
+ *  @brief Deprecated.
  */
-@property (nonatomic, nullable) NSString *keywords;
+@property (nonatomic, nullable) NSString *keywords DEPRECATED_MSG_ATTRIBUTE("This API is deprecated.");
 
 /**
  *  @brief In case is enabled and the responded creative supports this feature, the creative will start interacting without sound.
@@ -214,7 +202,7 @@ typedef NS_ENUM(NSInteger, IASDKCoreInitErrorType) {
  *  @brief Indicates which SDK is mediating Fyber. Mediation type value set for IAAdSpot will be checked before and used if there was any set.
  *  @discussion This value will be used in bidding flow, while bidding token creation.
  */
-@property (nonatomic, nullable) IAMediation *mediationType;
+@property (atomic, nullable) IAMediation *mediationType;
 
 /**
  *  @brief Can be used in order to get test ads in bidding flow.
@@ -227,18 +215,15 @@ typedef NS_ENUM(NSInteger, IASDKCoreInitErrorType) {
 + (instancetype _Null_unspecified)sharedInstance;
 
 /**
- *  @brief Initialisation of the SDK. Must be invoked before requesting the ads.
- *
- *  @discussion Should be invoked on the main thread. Otherwise it will convert the flow to the main thread. Is asynchronous method.
- *
- *  @param appID A required param. Must be a valid application ID, otherwise the SDK will not be able to request/render the ads.
+ *  @brief This API is deprecated, please use `initWithAppID:completionBlock:completionQueue:` instead.
  */
-- (void)initWithAppID:(NSString * _Nonnull)appID;
+- (void)initWithAppID:(NSString * _Nonnull)appID
+DEPRECATED_MSG_ATTRIBUTE("This API is deprecated, please use `initWithAppID:completionBlock:completionQueue:` instead");
 
 /**
- *  @brief Initialisation of the SDK. Must be invoked before requesting the ads.
+ *  @brief Initialization of the SDK. Must be invoked before requesting ads.
  *
- *  @discussion Should be invoked on the main thread. Otherwise it will convert the flow to the main thread. Is asynchronous method.
+ *  @discussion If not called on the main thread it will be converted to the main thread. Is asynchronous method.
  *
  *  @param appID A required param. Must be a valid application ID, otherwise the SDK will not be able to request/render the ads.
  *
@@ -268,11 +253,16 @@ typedef NS_ENUM(NSInteger, IASDKCoreInitErrorType) {
 - (void)clearLGPDConsentData;
 
 /**
- *  @brief Enable in order to manage audio session on behalf of SDK.
+ * @brief Sets a key-value pair in the SDK's extra data.
  *
- *  @discussion Resolves an occasional issue wnen there is no sound in VAST in iPadOS 16.1+ on certain iPads, in case AVAudioSession isn't managed explicitly in host app.
- *  This method isn't thread-safe and should be used immediately after SDK init.
+ * @param key The key (non-nil string) for the extra data to set.
+ * @param value The string value associated with the key.
+ *
+ * @discussion For adding multiple data, call this method for every key-value pair. For removing, pass `nil` for the value.
+ *
+ * This method must be called after the SDK init and before the ad-request / bidding-token creation.
  */
-- (void)enableAutomaticAudioSessionManagement;
+- (void)setExtraDataForKey:(nonnull NSString *)key
+                     value:(nullable NSString *)value NS_SWIFT_NAME(setExtraData(key:value:));
 
 @end

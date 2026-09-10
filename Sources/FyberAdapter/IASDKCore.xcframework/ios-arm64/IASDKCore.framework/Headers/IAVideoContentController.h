@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #import <IASDKCore/IAInterfaceBuilder.h>
 #import <IASDKCore/IAContentController.h>
@@ -26,17 +27,6 @@
 + (instancetype _Nullable)build:(void(^ _Nonnull)(id<IAVideoContentControllerBuilder> _Nonnull builder))buildBlock;
 
 @property (nonatomic, readwrite, getter=isMuted) BOOL muted;
-
-/**
- *  @brief Manual play.
- *  @discussion Use this API only if manual control is needed, since this API disables auto play/pause.
- */
-- (void)play;
-
-/**
- *  @brief Manual pause.
- *  @discussion Use this API only if manual control is needed, since this API disables auto play/pause.
- */
-- (void)pause;
+@property (nonatomic, readonly) CGFloat mediaAspectRatio;
 
 @end
